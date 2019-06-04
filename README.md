@@ -1,64 +1,20 @@
-# svelte app
+# svelte based dice roller
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template-webpack.
+somehow it seems that the dice roller is my own TODO-app - you know, an app to learn how to
+use a framework.
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+I already have
 
-```bash
-npx degit sveltejs/template-webpack svelte-app
-cd svelte-app
-```
+- [an Angular version](https://github.com/kabarakh/diceRollerV2)
+- a only privately available AngularJS version
+- there might be a react or vue version at some point
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+But this is the svelte version ;)
 
+## Installation
 
-## Get started
+Just clone the repo and run `npm install` - everything should be up to date then
 
-Install the dependencies...
+## Usage
 
-```bash
-cd svelte-app
-npm install
-```
-
-...then start webpack:
-
-```bash
-npm run dev
-```
-
-Navigate to [localhost:8080](http://localhost:8080). You should see your app running. Edit a component file in `src`, save it, and the page should reload with your changes.
-
-
-## Deploying to the web
-
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-now
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```
+Just run `npm run dev` for a local instance...
